@@ -21,9 +21,9 @@ public class KongaTest {
 
         System.out.println(driver.getTitle());System.out.println(driver.getTitle());
         driver.get("https://www.konga.com/account/login");
-        driver.findElement(By.xpath("//input[@id='username']")).sendKeys("");
+        driver.findElement(By.xpath("//input[@id='username']")).sendKeys("xxxxx");
         Thread.sleep(1000);
-        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("");
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("xxxxxx");
         driver.findElement(By.xpath("//*[@id=\"mainContent\"]/div/div/div/div[1]/form/div[3]/button")).click();
 
        
